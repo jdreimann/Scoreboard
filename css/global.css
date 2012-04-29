@@ -1,0 +1,5 @@
+body{font-family:Helvetica Neue;}
+input{font-size:200%;border:0px;background:white;}
+input:focus{background:WhiteSmoke;outline:none;}
+input[type="text"]{border-bottom:1px solid #eee;width:200px;}
+input[type="number"]{width:80px;}

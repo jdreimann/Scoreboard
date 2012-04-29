@@ -1,0 +1,13 @@
+!!! 5
+%html
+	%link{:rel => "stylesheet", :type => "text/css", :href => "css/global.css"}
+	%head
+		%title Our Score
+	%body
+		.column
+			.gamescore
+				%input{:type => "text", :name => "", :placeholder =>"Player 1"}
+				<input type="number" name="game-one" value="0" min="0" />
+				\:
+				%input{:type => "number", :name => "game-two", :value => "0", :min => "0"}
+				%input{:type => "text", :name => "", :placeholder => "Player 2"}
